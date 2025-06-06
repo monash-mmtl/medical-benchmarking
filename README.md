@@ -21,5 +21,5 @@ We generated all presenting complaints relevant captured under the 100 different
   - Outputs: regenerates failed cases with multiple retries, and adds generated files to folders and relevant all_cases.jsonl files.
  
 
-### Clinic workflow
+## Clinic workflow
 Accepts X_presenting_complaint_all_cases.jsonl as input for evaluation runs.
