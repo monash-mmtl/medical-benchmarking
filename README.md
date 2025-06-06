@@ -7,7 +7,8 @@ We captured 100 differential diagnoses and related presenting complaints from Mu
 All presenting complaints have a number of differential diagnoses which are captured under the subheadings of 'Probability Diagnosis', 'Serious Disorders' and 'Pitfalls' accoridng to the textbook.
 - These are stored in `tables_list/diagnoses.jsonl` and fetched in the workflow
 
-Cases are tagged with the relevant subheadings for subgroup analysis.
+We generated all presenting complaints relevant captured under the 100 differential diagnoses (total ~3000 cases) and present them here in `all cases.zip`.
+- Cases are tagged with the relevant subheadings for subgroup analysis.
 
 ## Data Generation Workflow
 - `main_generation.py`: First generation run of `all_cases.jsonl`.
