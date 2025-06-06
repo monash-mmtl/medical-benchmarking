@@ -13,6 +13,8 @@ We generated all presenting complaints relevant captured under the 100 different
 ## Data Generation Workflow
 - `main_generation.py`: First generation run of `all_cases.jsonl`.
   - Fetches presenting complaints and differential diagnoses from tables_list/diagnoses.jsonl for generation
+    - As of last run of 06/25, cases are generated using *gemini-2.5-pro-preview-03-25* using Vertex AI SDK.
+    - requires a `service-account.json` for credentials
   - Outputs: X_presenting_complaint folder: contains individual cases of X complaint, presenting_complaint_all_cases.jsonl: contains all cases appended of X complaint, failed_cases.json: contains cases failed to generate in initial run
 
 - `retry_failed_dfiferentials.py`: Retries all failed cases from `failed_cases.json`.
